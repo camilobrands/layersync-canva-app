@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LayerSync</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>LayerSync</h1>
+            <p>Transforme textos em carrosséis automaticamente</p>
+        </header>
+        
+        <main>
+            <div class="input-section">
+                <label for="textInput">Cole seu texto numerado aqui:</label>
+                <textarea id="textInput" placeholder="1. Primeiro item&#10;2. Segundo item&#10;3. Terceiro item"></textarea>
+                <button id="syncButton">Sincronizar com Design</button>
+            </div>
+            
+            <div class="status-section">
+                <div id="status">Pronto para sincronizar</div>
+            </div>
+        </main>
+    </div>
+    
+    <script src="https://sdk.canva.com/v1/api.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

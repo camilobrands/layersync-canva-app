@@ -1,0 +1,35 @@
+{
+  "name": "LayerSync",
+  "tagline": "Transforme textos em carrosséis com um clique",
+  "description": "Sincronize textos numerados com elementos de texto do seu design automaticamente. Perfeito para criar carrosséis de forma rápida e eficiente.",
+  "version": "1.0.0",
+  "developer": {
+    "name": "Felipe Camilo"
+  },
+  "app_url": "index.html",
+  "permissions": [
+    "EDIT_DESIGN",
+    "READ_DESIGN"
+  ],
+  "categories": [
+    "productivity",
+    "social_media"
+  ],
+  "configuration": {
+    "app_origin": "https://SEU-DOMINIO-AQUI.com"
+  },
+  "messages": {
+    "name": {
+      "defaultMessage": "LayerSync",
+      "description": "Nome do aplicativo"
+    },
+    "tagline": {
+      "defaultMessage": "Transforme textos em carrosséis com um clique",
+      "description": "Slogan do aplicativo"
+    },
+    "description": {
+      "defaultMessage": "Sincronize textos numerados com elementos de texto do seu design automaticamente",
+      "description": "Descrição detalhada do aplicativo"
+    }
+  }
+}
